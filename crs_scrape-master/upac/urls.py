@@ -34,4 +34,5 @@ urlpatterns = [
     url(r'^generate$', core.views.generate, name='generate'),
     #url(r'^advising$', core.views.advising, name='advising'),
     #url(r'^single$', core.views.single, name='single'),
+    url(r'^cplanner$', core.views.cplanner, name='cplanner'),
 ]

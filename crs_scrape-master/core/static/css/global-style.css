@@ -1,0 +1,188 @@
+body {
+	background: #f2f2f2;
+	font-family: "Muli";
+}
+
+/*#wrapper.active .page-content-wrapper{
+	padding-left: 250px;
+}
+
+.page-content-wrapper {
+	padding: 40px 40px 40px 70px;
+}*/
+
+.top-content {
+	width: 100%;
+	height: 80px;
+	margin-bottom: 30px;
+}
+
+.top-content, .body-content {
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	background-color: white;
+	padding: 20px;
+}
+
+.page-title {
+	float: left;
+}
+
+.page-title > h1{
+	margin: 0;
+}
+
+.top-button {
+	float: right;
+	/*padding: 10px;*/
+}
+
+.top-button > a, .top-button > a:visited {
+	border-radius: 50%;
+	background: #00c0ef;
+	height: 40px;
+	width: 40px;
+	color: white;
+}
+
+.top-button > a > span {
+	line-height: 23px;
+}
+
+.top-button > a:hover,
+.modal-footer > button:hover, .modal-footer > a:hover, 
+.info-row-button:hover {
+	-o-transition:.5s;
+  	-ms--transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	background: #00acd6;
+	/*border: 1px solid black;*/
+	color: white;
+}
+
+.info-row-button {
+	border-radius: 50%;
+	background: #00c0ef;
+	font-size: 12px;
+	height: 30px;
+	width: 30px;
+	color: white;
+	margin: 0 5px 0 5px;
+	padding: 7px 5px 8px 5px;
+}
+
+.modal-body > .row {
+	margin-top: 30px;
+}
+
+.input-text {
+	padding-bottom: 20px;
+}
+
+.input-text > input {
+	width: auto;
+}
+
+.error-msg {
+	color: red;
+	font-size: 12px;
+}
+
+.modal-footer > button, .modal-footer > a {
+	background: #00c0ef;
+	font-size: 20px;
+	color: white;
+	border-radius: 3px;
+}
+
+.modal-body-content{
+	padding: 20px 40px 20px 40px;
+}
+
+.dropdown-toggle {
+	text-align: left;
+}
+
+.dropdown-menu {
+	width: 100%;
+}
+
+.btn .caret {
+	float: right;
+}
+
+.dropdown-menu
+{
+	left: -119px;
+}
+
+.btn-primary
+{
+	background-color: #3c8dbc;
+	border-color: #3c8dbc;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, 
+.btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, 
+.open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, 
+.open>.dropdown-toggle.btn-primary:hover 
+{
+	background-color: #235471;
+	border-color: #235471;
+}
+
+.sidebar-text
+{
+	color: white;
+}
+
+.top-logo {
+	/*display: block;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
+}
+
+.img-custom {
+    margin-left: auto;
+    width: 205px;
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}*/
+
+/*EMPLOYEE SEARCH BAR*/
+.add-on .input-group-btn > .btn {
+  border-left-width:0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  left: 1px;
+  top: 3px;
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+
+.navbar-nav > li > a {
+  border-right: 1px solid #ddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar-nav:last-child{ border-right:0}
+
+.search-bar
+{
+	float: right;
+}
+
+.req-lvl
+{
+	background-color: #222d32;
+}
+

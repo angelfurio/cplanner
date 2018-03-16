@@ -817,3 +817,6 @@ def generate(request):
         print("Done!")
 
     return render(request, 'batch.html', data)
+
+def cplanner(request):
+    return render(request, 'cplanner.html') 
