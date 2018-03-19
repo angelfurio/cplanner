@@ -1,0 +1,24 @@
+{
+  "name": "tempust",
+  "version": "0.0.1",
+  "description": "Lean as shit jQuery calendar.",
+  "main": "dist/tempust.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semirix/tempust"
+  },
+  "keywords": [
+    "date",
+    "calendar",
+    "jquery"
+  ],
+  "author": "semirix",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "jquery": "^3.2.1"
+  }
+}
